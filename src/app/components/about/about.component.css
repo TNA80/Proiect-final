@@ -1,6 +1,12 @@
-#map {
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  background-color: #b3e2d1;
 }

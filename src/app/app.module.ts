@@ -13,6 +13,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AparateComponent } from './components/aparate/aparate.component';
 import { AboutComponent } from './components/about/about.component';
 import { ErrorComponent } from './components/error/error.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 const appRoute: Routes = [
   // {path:'', component: HomeComponent},
@@ -41,6 +42,7 @@ const appRoute: Routes = [
     FormsModule,
     RouterModule.forRoot(appRoute),
     HttpClientModule,
+    GoogleMapsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
