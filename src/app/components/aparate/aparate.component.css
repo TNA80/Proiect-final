@@ -1,0 +1,28 @@
+.box-2{
+    width: 649px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+ }
+ .home-container {
+    display: flex;
+    padding: 2rem 0;
+}
+/* .box-1{
+    background-color: #e6e8e9;
+    width: 300px;
+    height: 181px;
+    padding: 10px;
+}
+.box-1 h3{
+    color: rgb(31, 29, 29);
+    font-size: 18px;
+    font-weight: 200;
+    border-bottom: 1px dotted;
+}
+.box-1 p{
+    color: rgb(31, 29, 29);
+    font-size: 15px;
+    font-weight: 200; 
+}  */

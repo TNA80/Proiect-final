@@ -1,0 +1,37 @@
+component {
+    color: var(--bs-gray-800);
+    /* background-color: var(--bs-gray-100); */
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .25rem;
+  }
+  
+  .component-header {
+    color: var(--bs-purple);
+  }
+
+header {
+    display: flex;
+    justify-content: spacearoun-d;
+
+}
+
+img {
+  margin-right: 1rem;
+}
+
+.nav-link{
+  width: 179px;
+  height: 59px;
+  line-height: 55px;
+  color: #7a7171;
+  /* background-color: #e1e6eb; */
+  padding: 0;
+  text-align: center;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.nav-item:last-child{
+    margin-right: 0px;
+
+}

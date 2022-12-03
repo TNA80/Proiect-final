@@ -1,0 +1,105 @@
+<div class="programari-container">
+  <div class="content-area">
+    <div class="header">
+      <h1>Vreau o Programare</h1>
+      <hr />
+    </div>
+    <div class="container">
+      <form class="contact-form" (submit)="sendEmail($event)">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Nume</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="First_name"
+              placeholder="Nume..."
+              ngModel
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Prenume</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="Last_name"
+              placeholder="Prenume..."
+              ngModel
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-25">
+            <label for="Email">Email</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="Email"
+              name="Email"
+              placeholder="Email@gmail.com..."
+              ngModel
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="Aparate">Aparate</label>
+          </div>
+          <div class="col-75">
+            <select id="Aparate" name="Aparate" ngModel>
+              <option value="Elysion pro-Aparat Dioda">
+                Elysion pro-Aparat Dioda
+              </option>
+              <option value="Cooltech">Cooltech</option>
+              <option value="Velahape 3">Velahape 3</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subiect</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Scrie un mesaj..."
+              ngModel
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="start">Data</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="date"
+              id="start"
+              name="trip-start"
+              value="2022-07-22"
+              min="2022-12-01"
+              max="2023-12-31"
+              ngModel
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <input type="submit" value="Send Email" class style="color: blue" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<app-programari-online></app-programari-online>
