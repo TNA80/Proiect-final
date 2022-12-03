@@ -7,10 +7,10 @@
     <div class="container">
       <form class="contact-form" (submit)="sendEmail($event)">
         <div class="row">
-          <div class="col-25">
+          <div>
             <label for="fname">Nume</label>
           </div>
-          <div class="col-75">
+          <div>
             <input
               type="text"
               id="fname"
@@ -21,10 +21,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-25">
+          <div>
             <label for="lname">Prenume</label>
           </div>
-          <div class="col-75">
+          <div>
             <input
               type="text"
               id="lname"
@@ -36,10 +36,10 @@
         </div>
 
         <div class="row">
-          <div class="col-25">
+          <div>
             <label for="Email">Email</label>
           </div>
-          <div class="col-75">
+          <div>
             <input
               type="text"
               id="Email"
@@ -50,10 +50,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-25">
+          <div>
             <label for="Aparate">Aparate</label>
           </div>
-          <div class="col-75">
+          <div>
             <select id="Aparate" name="Aparate" ngModel>
               <option value="Elysion pro-Aparat Dioda">
                 Elysion pro-Aparat Dioda
@@ -64,10 +64,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-25">
+          <div>
             <label for="subject">Subiect</label>
           </div>
-          <div class="col-75">
+          <div>
             <textarea
               id="message"
               name="message"
@@ -78,10 +78,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-25">
+          <div>
             <label for="start">Data</label>
           </div>
-          <div class="col-75">
+          <div>
             <input
               type="date"
               id="start"
@@ -94,7 +94,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row btn-container">
           <input type="submit" value="Send Email" class style="color: blue" />
         </div>
       </form>
