@@ -5,7 +5,11 @@
       <hr />
     </div>
     <div class="container">
-      <form class="contact-form" (submit)="sendEmail($event)">
+      <form
+        class="contact-form"
+        #ProgramariForm="ngForm"
+        (submit)="sendEmail($event)"
+      >
         <div class="row">
           <div>
             <label for="fname">Nume</label>
@@ -94,12 +98,16 @@
           </div>
         </div>
 
-        <div class="row btn-container">
-          <input type="submit" value="Send Email" class style="color: blue" />
+        <div class="btn-container">
+          <input type="submit" value="Send Email" style="color: blue" />
+          <input
+            type="button"
+            (click)="onClickProgramareOnline(ProgramariForm.value)"
+            value="Programare Online"
+            class="programari-btn"
+          />
         </div>
       </form>
     </div>
   </div>
 </div>
-
-<app-programari-online></app-programari-online>
